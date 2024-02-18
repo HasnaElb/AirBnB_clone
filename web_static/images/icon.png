@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xdg-icon-resource install --size 48 /C:\Users\pc\Desktop\icon.png
