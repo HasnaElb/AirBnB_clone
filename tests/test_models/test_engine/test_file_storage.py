@@ -97,7 +97,7 @@ class TestFileStorage(unittest.TestCase):
         with self.assertRaises(TypeError) as error:
             base = FileStorage(7, 12)
         fail = "object() takes no parameters"
-        self.assertEqual(str(error.exception), fail)
+        self.assertEqual(str(error.exception), 'FileStorage() takes no arguments')
 
     def test_all_dict_returned(self):
         """test the method all when returns dict"""
